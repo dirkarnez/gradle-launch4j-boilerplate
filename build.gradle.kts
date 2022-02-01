@@ -51,7 +51,7 @@ tasks.register<DefaultTask>("executable") {
 
 tasks.withType<DefaultLaunch4jTask> {
     bundledJre64Bit = true
-    bundledJrePath = "../jre"
+    bundledJrePath = "./jre"
     dontWrapJar = true
     headerType = "console"
     jar = "helloworld"
